@@ -1,0 +1,26 @@
+.search-result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.grade-text {
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+}
+
+.video-link {
+  display: inline-block; /* Tetap inline-block untuk posisinya */
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+  text-decoration: none;
+  border: none; 
+  background: none; 
+  padding: 0; 
+  outline: none; 
+}
+
+.video-link:hover {
+  text-decoration: underline;
+}

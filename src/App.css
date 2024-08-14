@@ -1,0 +1,58 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; 
+}
+
+.container {
+  background-color: #ffffff; 
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.Home-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-image {
+  width: 80%; 
+  height: auto;
+  margin-top: 40px; 
+  margin-bottom: 10px;
+  border-radius: 8px; 
+}
+
+.banner-gundam {
+  width: 50%;
+  height: auto; 
+  margin-top: 20px; 
+  margin-bottom: 40px;
+  border-radius: 8px; 
+}
+
+.banner-grade {
+  width: 50%; 
+  height: auto; 
+  margin-top: 20px; 
+  margin-bottom: 40px;
+  border-radius: 8px; 
+}
+
+
+/* Responsif untuk konten */
+@media screen and (max-width: 991.98px) {
+  .container {
+    padding: 10px;
+  }
+}

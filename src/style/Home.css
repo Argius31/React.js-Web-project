@@ -1,0 +1,24 @@
+.description {
+    margin-top: 20px; 
+    padding: 20px; 
+    background-color: white; 
+  }
+  
+  .description h3 {
+    font-size: 1.75rem; 
+    color: #364f6b;
+    margin-bottom: 10px;
+  }
+  
+  .description p {
+    font-size: 1rem; 
+    color: #333; 
+    font-weight: 300; 
+    line-height: 1.6; 
+  }
+
+.Home-header {
+    font-size: 1.75rem; 
+    color: #364f6b;
+    margin-bottom: 10px; 
+}

@@ -1,0 +1,108 @@
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+  }
+  
+  .menu {
+    float: right;
+  }
+
+nav {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+    background: #ffffff; /* Navbar dengan latar belakang putih */
+    border-bottom: 1px solid #364f6b;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo a {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: courier;
+    color: #e24037;
+    text-decoration: none;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menyusun item menu secara horizontal */
+  }
+  
+  .menu ul li {
+    margin-left: 20px; /* Jarak antar item menu */
+  }
+  
+  .menu ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsif */
+  @media screen and (max-width: 991.98px) {
+    .logo a {
+      font-size: 30px;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu ul li {
+      margin: 10px 0;
+    }
+  
+    .menu ul li a {
+      padding: 10px 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .logo a {
+      font-size: 24px;
+    }
+  
+    .menu ul li a {
+      font-size: 14px;
+    }
+  }
